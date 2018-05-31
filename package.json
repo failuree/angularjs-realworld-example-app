@@ -5,7 +5,8 @@
   "author": "Thinkster",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "./setup.sh"
+    "bootstrap": "./setup.sh",
+    "start": "gulp"
     },
   "dependencies": {
     "angular": "^1.5.0-rc.2",
