@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "./setup.sh",
-    "start": "gulp"
+    "start": "gulp && SERVER_PROD_PORT=$PORT npm run server",
+    "heroku-server": "SERVER_PROD_PORT=$PORT npm run server"
     },
   "dependencies": {
     "angular": "^1.5.0-rc.2",
