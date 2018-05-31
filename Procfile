@@ -1,1 +1,1 @@
-web : ./build/main.js
+web : gulp 
