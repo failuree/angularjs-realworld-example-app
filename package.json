@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "./setup.sh",
-    "start": "gulp && SERVER_PROD_PORT=$PORT npm run server",
+    "start": "gulp && SERVER_PROD_PORT=4000 npm run server",
     "heroku-server": "SERVER_PROD_PORT=$PORT npm run server"
     },
   "dependencies": {
